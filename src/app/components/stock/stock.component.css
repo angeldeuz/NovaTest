@@ -1,0 +1,67 @@
+.card__header{
+    display: flex;
+}
+h3{
+    background-color:#2e279d;
+    color: white;
+    padding: 10px 25px 10px 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius:25px ;
+    margin-left: -30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.card__body{
+    display: flex;
+}
+table{
+    background: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding: 15px;
+}
+
+thead{
+    background-color: #4d80e4;
+    border-bottom: solid 5px #2e279d;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #4d80e4;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    thead {
+        display: none;
+        background-color: inherit;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+}
+

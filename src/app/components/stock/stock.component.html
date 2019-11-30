@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="card">
+        <div class="card__header">
+            <h3>Stock</h3>
+        </div>
+        <div class="card__body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Ticker</th>
+                        <th>Changes</th>
+                        <th>Price</th>
+                        <th>Changes Percentage</th>
+                        <th>Company Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- usando la directiva ngFor recorremos el array que obtenemos de la api para mostrar
+                    los datos en la tabla. Ademas usamos un operador de navegacion segura (?) protegiendo 
+                    datos nulls o undefined durante la renderizacion del componente -->
+                    <tr *ngFor="let stock of stocks?.mostActiveStock">
+                        <td>{{stock.ticker}}</td>
+                        <td>{{stock.changes}}</td>
+                        <td>{{stock.price}}</td>
+                        <td>{{stock.changesPercentage}}</td>
+                        <td>{{stock.companyName}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
