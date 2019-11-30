@@ -19,7 +19,7 @@ Correr 'ng serve' para ejecutar servidor de desarrollo
 
 ## Running unit tests
 
-Run 'ng test' para ejecutar las pruebas unitarias a traves de Karma
+Run `ng test` para ejecutar las pruebas unitarias a traves de Karma
 
 ## Running end-to-end tests
 
@@ -27,4 +27,4 @@ Run `ng e2e` para ejecutar pruebas de extremo a extremo atraves de protractor
 
 ## Further help
 
-Run 'ng help' para obtener ayuda de angular cli
+Run `ng help` para obtener ayuda de angular cli
