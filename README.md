@@ -6,12 +6,12 @@ Para la prueba tecnica de Nova, en donde se cumplio lo siguente
 
 - creacion de proyecto Angular
 - creacion de componente 'Stock'
-- creacion de servicio para la llamda de la api
+- creacion de servicio para la llamada de la api
 - consumir servicio en componente de angular 'Stock'
 - creacion de tabla con los datos de la api
 - estilos con css
 - codigo Documentado
--Proyecto en Github
+- Proyecto en Github
 
 ## Development server
 
