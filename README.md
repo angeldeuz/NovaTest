@@ -11,7 +11,13 @@ Para la prueba tecnica de Nova, en donde se cumplio lo siguente
 - creacion de tabla con los datos de la api
 - estilos con css
 - codigo Documentado
+- implementacion de unit Test
 - Proyecto en Github
+
+## Instalar Proyecto
+
+`npm install`
+`npm update`
 
 ## Development server
 
@@ -19,11 +25,16 @@ Correr 'ng serve' para ejecutar servidor de desarrollo
 
 ## Running unit tests
 
-Run `ng test` para ejecutar las pruebas unitarias a traves de Karma
+Run `ng test` para ejecutar las pruebas unitarias a traves de Karma y jasmin
 
-## Running end-to-end tests
+Se agregaron algunas pruebas muy basica, como la validacion de la creacion de componente y el valor de algunas variables
 
-Run `ng e2e` para ejecutar pruebas de extremo a extremo atraves de protractor
+## Vistas de la Aplicacion
+
+# Desktop
+
+# Movile
+
 
 ## Further help
 
