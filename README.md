@@ -29,12 +29,17 @@ Run `ng test` para ejecutar las pruebas unitarias a traves de Karma y jasmin
 
 Se agregaron algunas pruebas muy basica, como la validacion de la creacion de componente y el valor de algunas variables
 
-## Vistas de la Aplicacion
+![alt tag](https://raw.githubusercontent.com/angeldeuz/NovaTest/master/src/assets/Test.PNG)
 
-# Desktop
+# Vistas de la Aplicacion
 
-# Movile
+## Desktop
 
+![alt tag](https://raw.githubusercontent.com/angeldeuz/NovaTest/master/src/assets/escritorio.PNG)
+
+## Movile
+
+![alt tag](https://raw.githubusercontent.com/angeldeuz/NovaTest/master/src/assets/responsive.PNG)
 
 ## Further help
 
